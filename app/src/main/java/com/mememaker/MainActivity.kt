@@ -13,9 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        templates.setOnClickListener{
-            val intent = (this, TemplatesPage:class)
-        }
+
 
         }
     }
