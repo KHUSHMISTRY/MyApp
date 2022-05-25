@@ -13,6 +13,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val templatebutton = findViewById<Button>(R.id.templates);
+
+        templatebutton.setOnClickListener{
+
+            Toast.makeText(this,"Button Clicked",Toast.LENGTH_SHORT).show()
+
+        }
+
 
 
         }

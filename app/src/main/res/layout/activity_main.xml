@@ -15,12 +15,12 @@
 
     <Button
         android:id="@+id/templates"
-        android:layout_width="250dp"
-        android:layout_height="100dp"
-        android:text="templates"
-        tools:layout_editor_absoluteX="71dp"
-        tools:layout_editor_absoluteY="342dp"
-        tools:textSize="24sp" />
+        android:layout_width="215dp"
+        android:layout_height="74dp"
+        android:layout_centerInParent="true"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="328dp"
+        android:text="TEMPLATES"/>
 
     <TextView
         android:id="@+id/textView"
