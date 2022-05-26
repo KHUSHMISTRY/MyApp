@@ -6,7 +6,6 @@ import com.example.myapplication.R
 
 class TemplatesPage : AppCompatActivity() {
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_templatespage)
