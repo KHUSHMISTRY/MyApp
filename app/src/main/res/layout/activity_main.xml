@@ -18,9 +18,10 @@
         android:layout_width="215dp"
         android:layout_height="74dp"
         android:layout_centerInParent="true"
+        android:text="TEMPLATES"
+        android:textSize="24sp"
         tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="328dp"
-        android:text="TEMPLATES"/>
+        tools:layout_editor_absoluteY="328dp" />
 
     <TextView
         android:id="@+id/textView"
