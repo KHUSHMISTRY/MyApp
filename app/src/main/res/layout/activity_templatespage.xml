@@ -11,6 +11,7 @@
         android:layout_width="502dp"
         android:layout_height="343dp"
         android:src="@drawable/draketemplate"
-        tools:layout_editor_absoluteX="-91dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-91dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
