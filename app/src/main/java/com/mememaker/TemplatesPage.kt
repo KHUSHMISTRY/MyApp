@@ -17,10 +17,10 @@ class TemplatesPage : AppCompatActivity() {
 
         val drakebutton = findViewById<Button>(R.id.draketemplatebutton)
 
-        drakebutton.setOnClickListener{
+        drakebutton.setOnClickListener {
 
-            Toast.makeText(this,"Taking to drake template", Toast.LENGTH_SHORT).show()
-            val intent = Intent(this,DrakeTemplatePage::class.java)
+            Toast.makeText(this, "Taking to drake template", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, DrakeTemplatePage::class.java)
             startActivity(intent)
             finish()
         }
